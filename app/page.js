@@ -1,7 +1,7 @@
 app/page.js
 export default function Home() {
   return (
-    <div style={{fontFamily: "Arial", padding: "20px"}}>
+    <div style={{ fontFamily: "Arial", padding: "20px" }}>
       <h1>AB Exteriors</h1>
       <p>Professional Window Cleaning Services</p>
 
@@ -19,14 +19,11 @@ export default function Home() {
         <li>Gutter Cleaning: $4 per foot</li>
       </ul>
 
-      <h2>Instant Quote</h2>
-      <p>Contact us for a quote!</p>
-
       <h2>Book Now</h2>
       <iframe
-        src=\"https://calendly.com/ab-windows2026\"
-        width=\"100%\"
-        height=\"500\"
+        src="https://calendly.com/ab-windows2026"
+        width="100%"
+        height="500"
       ></iframe>
 
       <h2>Contact</h2>
