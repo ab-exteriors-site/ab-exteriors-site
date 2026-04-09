@@ -1,6 +1,7 @@
 export default function Home() {
   return (
     <main style={{ fontFamily: "Arial", padding: "40px", textAlign: "center" }}>
+      
       <h1>AB Exteriors</h1>
       <p>Professional Window Cleaning Services</p>
 
@@ -17,16 +18,27 @@ export default function Home() {
       <p>Gutter Cleaning: $4 per foot</p>
 
       <h2>Book an Appointment</h2>
-      <iframe
-        src="https://calendly.com/ab-windows2026"
-        width="100%"
-        height="500"
-        style={{ border: "none" }}
-      ></iframe>
+      <a
+        href="https://calendly.com/ab-windows2026"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{
+          display: "inline-block",
+          padding: "15px 25px",
+          backgroundColor: "#0070f3",
+          color: "white",
+          textDecoration: "none",
+          borderRadius: "5px",
+          marginTop: "10px"
+        }}
+      >
+        Book Now
+      </a>
 
       <h2>Contact Us</h2>
       <p>📞 737-777-0592</p>
-      <p>📧 ab.windows2026@gmail.com</p>
+      <p>✉️ ab.windows2026@gmail.com</p>
+
     </main>
   );
 }
